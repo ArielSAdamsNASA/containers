@@ -26,7 +26,7 @@ run mkdir -p ${HOME}/rtems-4.11 \
   && cd ${HOME} \
   && mkdir b-pc686 \
   && cd b-pc686 \
-  && ../rtems/configure --target=i386-rtems4.11 \
+  && ../rtems/configure --target=i386-rtems-4.11 \
     --enable-rtemsbsp=pc686 \
     --prefix=${HOME}/rtems-4.11 \
     --enable-networking \
