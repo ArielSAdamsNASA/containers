@@ -1,5 +1,4 @@
 from ubuntu:18.04
-ENV DEBIAN_FRONTEND=noninteractive
 
 # Basic dependencies
 run apt-get update && apt-get install -y git make
